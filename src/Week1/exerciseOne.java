@@ -2,7 +2,12 @@ package Week1;
 
 public class exerciseOne {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-        System.out.println("Updates 2");
+        exerciseOne hello = new exerciseOne();
+        System.out.println(hello.HelloWorld());
+
+    }
+    public String HelloWorld(){
+        return "Hello World";
+
     }
 }
