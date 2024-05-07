@@ -20,6 +20,8 @@ public class GroceryMain {
         list.add(garlic);
 
         list.displayItems();
+        System.out.println("Total Cost: " + list.getTotalCost());
+
 
 
     }
