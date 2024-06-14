@@ -1,4 +1,4 @@
-/*
+package Week8;/*
     
     A program that inputs temperature in degrees Celsius
     and outputs the temperature in equivalent degrees Fahrenheit. 
@@ -12,7 +12,7 @@ class TemperatureConverter {
 	public static void main(String[] args) {
 		Scanner         scanner;
 		double          celsius, fahrenheit;
-		Temperature     converter;
+		Temperature converter;
 		
 		scanner = new Scanner( System.in );
 		converter = new Temperature();

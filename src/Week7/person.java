@@ -1,12 +1,13 @@
 package Week7;
 
-public class team {
+public class person {
     private String name;
-    private int phoneNumber;
+    // must make phone number string bc "integer too large error"
+    private String phoneNumber;
     private String birthDate;
     private int jerseyNum;
 
-    public team(String name, int phoneNumber, String birthDate, int jerseyNum){
+    public person(String name, String phoneNumber, String birthDate, int jerseyNum){
         this.name = name;
         this.phoneNumber = phoneNumber;
         this.birthDate = birthDate;
@@ -17,7 +18,7 @@ public class team {
         this.name = name;
     }
 
-    public void setPhoneNum(int phoneNumber){
+    public void setPhoneNum(String phoneNumber){
         this.phoneNumber = phoneNumber;
     }
 
@@ -34,7 +35,7 @@ public class team {
         return name;
     }
 
-    public int getPhone(){
+    public String getPhone(){
         return phoneNumber;
     }
 

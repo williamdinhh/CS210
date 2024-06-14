@@ -1,5 +1,4 @@
-package Week8;
-
+import Week8.Temperature;
 import org.junit.Test;
 import static org.junit.Assert.*;
 

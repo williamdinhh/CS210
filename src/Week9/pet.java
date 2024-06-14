@@ -1,2 +1,4 @@
-package Week9;public class pet {
+package Week9;
+
+public class pet {
 }
