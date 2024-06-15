@@ -1,4 +1,4 @@
-package Week7;
+package Week6;
 
 public class person {
     private String name;
@@ -19,31 +19,38 @@ public class person {
     }
 
     public void setPhoneNum(String phoneNumber){
+
         this.phoneNumber = phoneNumber;
     }
 
     public void setBirthDate(String birthDate){
+
         this.birthDate = birthDate;
     }
 
     public void setJerseyNum(int jerseyNum){
+
         this.jerseyNum = jerseyNum;
     }
 
     // getters
     public String getName(){
+
         return name;
     }
 
     public String getPhone(){
+
         return phoneNumber;
     }
 
     public String getBirthDate(){
+
         return birthDate;
     }
 
     public int getJerseyNum(){
+
         return jerseyNum;
     }
 

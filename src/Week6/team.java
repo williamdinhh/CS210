@@ -1,4 +1,4 @@
-package Week7;
+package Week6;
 
 import java.util.ArrayList;
 
@@ -12,7 +12,7 @@ public class team {
         this.teamName = teamName;
         this.coachName = coachName;
         this.conferenceName = conferenceName;
-        this.roster = new ArrayList<>();  // Initialize ArrayList
+        this.roster = new ArrayList<>();
 
     }
     public void addPerson(person person) {
