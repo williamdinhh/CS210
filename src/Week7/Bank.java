@@ -22,9 +22,9 @@ public class Bank {
     }
 
     public static void main(String[] args) {
-        Bank bank = new Bank(123456789); // Replace with an actual routing number
+        Bank bank = new Bank(12345);
 
-        Customer customer = bank.createNewCustomer("John", "Doe", 1001, 1000.0, 500.0, 30.0);
+        Customer customer = bank.createNewCustomer("Joe", "H", 1, 1000000.0, 50000.0, 0.0);
 
         customer.getAccount().depositFunds(500.0);
         customer.getAccount().withdrawFunds(200.0);
